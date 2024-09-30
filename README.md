@@ -20,4 +20,5 @@ python moving_least_squares.py
 ![](image/transform/01.png)
 ![](image/transform/03.png)
 ## Point Guiged Deformation
+![](image/transform/06.png)
 
