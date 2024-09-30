@@ -17,7 +17,7 @@ python moving_least_squares.py
 ```
 # Results
 ## BasicTransformation
-![](DIP-01_ImageWarping/image/transform/01.png)
-![](DIP-01_ImageWarping/image/transform/03.png)
+![](image/transform/01.png)
+![](image/transform/03.png)
 ## Point Guiged Deformation
 
