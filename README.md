@@ -9,14 +9,14 @@ python -m pip install -r requirements.txt
 ## Running
 To run basic transformation, run:
 ```
-python run_global_transform.py
+python global_transform.py
 ```
 To run guided transformation, run:
 ```
-python run_point_transform.py
+python moving_least_squares.py
 ```
 ## Results
-# BasicTransformation
+BasicTransformation
 
-# Point Guiged Deformation
+Point Guiged Deformation
 
