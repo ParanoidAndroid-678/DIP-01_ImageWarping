@@ -53,8 +53,8 @@ def point_guided_deformation(image, source_pts, target_pts, alpha=1.0, eps=1e-8)
     xx, yy = np.meshgrid(gridX, gridY)
     
     n = len(source_pts)
-    p = source_pts.astype(np.float32).reshape(n, 1, 1, 2)
-    q = target_pts.astype(np.float32).reshape(n, 1, 1, 2)
+    q = source_pts.astype(np.float32).reshape(n, 1, 1, 2)
+    p = target_pts.astype(np.float32).reshape(n, 1, 1, 2)
     v = np.dstack((xx, yy))
     
     w = 1.0 / (np.sum((p-v)**2, axis=-1)+eps)**1
